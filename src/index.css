@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .container{
+    @apply max-w-4xl mx-auto min-h-[100vh]
+  }
+
+}
